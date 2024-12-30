@@ -18,3 +18,6 @@ Then you can choose the camera position and the application will show you how th
 
 ### Teil 2
 Is about Hamming-Codes
+
+### Teil 3
+Is about the DCT (discrete cosine transformation) which is used to compress signals like audio or image.
