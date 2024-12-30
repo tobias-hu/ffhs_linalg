@@ -7,6 +7,8 @@ T = idct(3)
 
 img = normalize(np.array([255,128,45]))
 
+print(M)
+
 dct_res = M @ img
 
 print(dct_res)
