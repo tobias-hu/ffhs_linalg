@@ -1,6 +1,12 @@
 import numpy as np
 import sympy as sp
 
+"""
+Created on: 30.12.2024
+Author: Tobias Gasche
+Description: define forward dct and inverse dct.
+define helperfunctions normalize and denormalize
+"""
 
 def fdct(N):
     M = np.zeros((N, N))

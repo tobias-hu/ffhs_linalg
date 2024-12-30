@@ -6,6 +6,12 @@ from skimage import data
 # 'cause of some weird issues with the matplotlib backend
 matplotlib.use('TkAgg')
 
+"""
+Created on: 30.12.2024
+Author: Tobias Gasche
+Description: Play with the FFTPack dct and idct on images of skimage
+"""
+
 img = data.brick()
 
 plt.imshow(img, cmap='gray')
